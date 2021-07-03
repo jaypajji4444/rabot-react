@@ -1,0 +1,16 @@
+a{
+    font: normal normal normal 16px/25px Poppins;
+    color: #1d2b4f;
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: 0.11px;
+    color: #1D2B4F;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+
+.underline{
+    text-decoration:underline
+}
+
