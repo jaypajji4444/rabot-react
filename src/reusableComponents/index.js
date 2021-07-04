@@ -1,13 +1,16 @@
 
 import {GoogleButton,Button} from "./Button";
 
-import Link from "./Link/Link";
-import SearchBar from "./SearchBar/SearchBar";
+import {Link} from "./Link";
+import {SearchBar} from "./SearchBar";
 import {Badge} from "./Badge";
 import {SelectBox} from "./SelectBox";
 import {CheckBoxType1,CheckBoxType2,CheckBoxType4Correct,CheckBoxType5,CheckBoxType4Wrong,CheckBoxType3} from "./CheckBox"
 import {Radio} from "./Radio";
-import {InputCalendarField,InputPasswordField,InputTextField,InputTimerField,InputVarianceField,InputTextFieldTopLabel} from "./InputField";
+import {InputCalendarField,InputPasswordField,InputTextField,InputTimerField,InputVarianceField,InputTextFieldTopLabel,InputTextAreaField} from "./InputField";
+import {Share,Download,Filter} from "./IconTypeComponent";
+import { H2,H3 } from "./Header";
+import {Navbar} from "./Navbar";
 
 export {Button,
     GoogleButton
@@ -21,7 +24,10 @@ export {Button,
     CheckBoxType4Wrong,
     CheckBoxType3,
     Radio,
-    InputCalendarField,InputPasswordField,InputTextField,InputTimerField,InputVarianceField,InputTextFieldTopLabel,
-    Badge
+    InputCalendarField,InputPasswordField,InputTextField,InputTimerField,InputVarianceField,InputTextAreaField,InputTextFieldTopLabel,
+    Badge,
+    Share,Download,Filter,
+    H2,H3,
+    Navbar
 
 };

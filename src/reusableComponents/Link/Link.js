@@ -1,10 +1,9 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import "./links.css"
 
-const Links = ({text,to,classname})=>{
+const Links = ({to,...props})=>{
     return(
-        <Link to={to} className={classname}>{text}</Link>
+        <Link to={to} className={`comm-link`}>{props.children}</Link>
     )
 }
 

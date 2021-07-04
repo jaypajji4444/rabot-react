@@ -1,11 +1,13 @@
 import React from "react";
-import "./SearchBar.css"
 
-const SearchBar = ({placeholder})=>{
+
+const SearchBar = ({placeholder="Search",required=false})=>{
     return (
-        <div className="form-group has-search">
-            <span className="fa fa-search form-control-feedback"></span>
-            <input type="text" className="form-control" placeholder={placeholder}/>
+        <div className="form-grp search-input">
+            <input className="form-field" type="text" id="search" name="search" required={required} />
+            <p className="form-label">{placeholder}</p>
+            <i className="icoSerch ico-one ph-magnifying-glass"></i>
+            <i className="icoSerch ico-two ph-sliders"></i>
         </div>
     )
 }
