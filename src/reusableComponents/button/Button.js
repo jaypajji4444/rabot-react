@@ -1,14 +1,10 @@
 import React from 'react';
-
-import "./button.css"
-
-
-
-
-const SubmitButton = ({classname,name,type,variant="contained",onSubmitHandler,...props})=>{
+// Avaliable style : white-fill violet-light line (line button--block)
+const Button = ({style="",onSubmitHandler,...props})=>{
     return (
-        <button className={` btn ${classname}`} onClick={onSubmitHandler} >{props.children}</button>
+        <button className={`button ${style}`} onSubmit={onSubmitHandler}>{props.children}</button>
+        
     )
 }
 
-export default SubmitButton;
+export default Button;

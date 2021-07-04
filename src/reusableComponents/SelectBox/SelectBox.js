@@ -1,12 +1,18 @@
 import React  from "react";
-import "./SelectBox.css"
+
 const SelectBox = ({options})=>{
-    let optionList = options && options.map(optionItem=><option value={optionItem}>{optionItem}</option>)
+    //let optionList = options && options.map(optionItem=><option value={optionItem}>{optionItem}</option>)
     return (
-        <div className="select">
-        <select className="form-select  mb-3 select-box"  aria-label=".form-select-lg example">
-            {optionList}
-        </select>
+        <div className="form-grp">
+            <select className="select-field form-field" name="select-fld" id="select-fld" required>
+                <option></option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+                <option>Option 4</option>
+                <option>Option 5</option>
+            </select>
+            <p className="form-label">Normal Select Field</p>
         </div>
     )
 }

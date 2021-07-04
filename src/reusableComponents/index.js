@@ -1,11 +1,27 @@
-import SubmitButton from "./button/Button";
-import InputTextField from "./TextField/InputTextField";
-import GoogleButton from "./googleButton/GoogleButton";
-import OrderList  from "./OrderTable/OrderList";
+
+import {GoogleButton,Button} from "./Button";
+
 import Link from "./Link/Link";
 import SearchBar from "./SearchBar/SearchBar";
-import CheckBox from "./CheckBox/CheckBox";
-import Tags from "./Tags/Tags";
-import SelectBox from "./SelectBox/SelectBox";
+import {Badge} from "./Badge";
+import {SelectBox} from "./SelectBox";
+import {CheckBoxType1,CheckBoxType2,CheckBoxType4Correct,CheckBoxType5,CheckBoxType4Wrong,CheckBoxType3} from "./CheckBox"
+import {Radio} from "./Radio";
+import {InputCalendarField,InputPasswordField,InputTextField,InputTimerField,InputVarianceField,InputTextFieldTopLabel} from "./InputField";
 
-export {SubmitButton,InputTextField,GoogleButton,Link,OrderList,SearchBar,CheckBox,Tags,SelectBox};
+export {Button,
+    GoogleButton
+    ,Link,
+    SearchBar,
+    SelectBox,
+    CheckBoxType1,
+    CheckBoxType2,
+    CheckBoxType4Correct,
+    CheckBoxType5,
+    CheckBoxType4Wrong,
+    CheckBoxType3,
+    Radio,
+    InputCalendarField,InputPasswordField,InputTextField,InputTimerField,InputVarianceField,InputTextFieldTopLabel,
+    Badge
+
+};
