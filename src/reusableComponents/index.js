@@ -12,6 +12,7 @@ import {Share,Download,Filter,Play,OrderIcon} from "./IconTypeComponent";
 import { H2,H3 } from "./Header";
 import {Navbar} from "./Navbar";
 import { PlayCard,HorizontalCard,VerticalCard } from "./Cards";
+import {OrderList} from "./Orders";
 
 
 export {Button,
@@ -32,7 +33,9 @@ export {Button,
     H2,H3,
     Navbar,
     PlayCard,
-    Play,OrderIcon,HorizontalCard,VerticalCard
+    Play,OrderIcon,HorizontalCard,VerticalCard,
+    OrderList
+
 
 
 };

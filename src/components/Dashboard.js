@@ -1,4 +1,5 @@
 import React,{Fragment} from 'react';
+import userImage from "../img/user.jpg";
 
 import "./DashBoard.css"
 
@@ -6,10 +7,15 @@ import {SelectBox,Button,GoogleButton,Link,SearchBar,
 CheckBoxType1,CheckBoxType2,CheckBoxType3,CheckBoxType4Correct,CheckBoxType4Wrong,CheckBoxType5,Radio,
 InputCalendarField,InputPasswordField,InputTextAreaField,InputTextField,InputTimerField,InputVarianceField,InputTextFieldTopLabel
 ,Badge,Share,Download,Filter,H2,H3,Navbar,
-PlayCard,Play,OrderIcon,HorizontalCard,VerticalCard
+PlayCard,Play,OrderIcon,HorizontalCard,VerticalCard,OrderList
 } from "../reusableComponents/index"
 
 let selectBoxData = ["Option-1","Option-2","Option-3"]
+let orders=[
+    {orderNo:"LP05071631",stationId:"58754",item:4,duration:"75 Seconds",assigned:"Dennis Stewart",img:userImage,dateTime:"25 Jun'21 12.56pm",status:"In-Progress"},
+    {orderNo:"LP05071631",stationId:"58754",item:4,duration:"75 Seconds",assigned:"Dennis Stewart",img:userImage,dateTime:"25 Jun'21 12.56pm",status:"Complete"},
+    {orderNo:"LP05071631",stationId:"58754",item:4,duration:"75 Seconds",assigned:"Dennis Stewart",img:userImage,dateTime:"25 Jun'21 12.56pm",status:"Pending"}
+]
 
 const Dashboard = ()=>{
     
@@ -202,6 +208,11 @@ const Dashboard = ()=>{
                         <div className="col-md-3"><Link to="#"  >Existing User? Login</Link></div>
                         <div className="col-md-3"><Link to="#"   >Create an Account</Link></div>
                         <div className="col-md-3"><Link to="#" >Forgot Password?</Link></div>
+                    </div>
+
+                    <h2 className="ehdn2">Orders</h2>
+                    <div class="col-md-12 mb-4">
+                        <OrderList orders={orders} />
                     </div>
 
                 </div>
