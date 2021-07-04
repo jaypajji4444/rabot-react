@@ -50,35 +50,35 @@ const Dashboard = ()=>{
                     
                             <div className="col-md-4">
                                 <h3 class="ehdn2">Small Radio</h3>
-                                <Radio name="radio-1" value="rd-1" id="1" />
-                                <Radio name="radio-2" value="rd-2" id="2" />
+                                <Radio name="radio-1" label="Radio-1" value="rd-1" id="rd-1" />
+                                <Radio name="radio-1" label="Radio-2" value="rd-2" id="rd-2" />
                             </div>
                             <div className="col-md-4">
                             <h3 class="ehdn2">CheckBoxType1</h3>
-                                <CheckBoxType1 name="Checkbox-1" value="Checkbox-1"/>
-                                <CheckBoxType1 name="Checkbox-2" value="Checkbox-2"/>
+                                <CheckBoxType1 label="Checkbox-1" id="ckt1-1" value="Checkbox-1"/>
+                                <CheckBoxType1 label="Checkbox-2" id="ckt1-2" value="Checkbox-2"/>
                             </div>
                             <div className="col-md-4">
                             <h3 class="ehdn2">CheckBoxType2</h3>
-                                <CheckBoxType2 name="Checkbox-1" value="Checkbox-1"/>
-                                <CheckBoxType2 name="Checkbox-2" value="Checkbox-2"/>
+                                <CheckBoxType2 label="Checkbox-1" id="ckt2-1" value="Checkbox-1"/>
+                                <CheckBoxType2 label="Checkbox-2" id="ckt2-2"value="Checkbox-2"/>
                             </div>
                         
 
                         
                             <div className="col-md-4">
                             <h3 class="ehdn2">CheckBoxType3</h3>
-                                <CheckBoxType3 name="Checkbox 1 Checkbox 1" value="Checkbox-1"/>
+                                <CheckBoxType3 label="Checkbox 1 Checkbox 1" value="Checkbox-1"/>
                                 
                             </div>
                             <div className="col-md-4">
                             <h3 class="ehdn2">CheckBoxType4</h3>
-                                <CheckBoxType4Correct name="Checkbox-1" value="Checkbox-1"/>
-                                <CheckBoxType4Wrong name="Checkbox-2" value="Checkbox-2"/>
+                                <CheckBoxType4Correct label="Checkbox-1" id="ckt4-1" value="Checkbox-1" name="ckt4"/>
+                                <CheckBoxType4Wrong label="Checkbox-2" id="ckt4-2" value="Checkbox-2" name="ckt4"/>
                             </div>
                             <div className="col-md-4">
                             <h3 class="ehdn2">CheckBoxType5</h3>
-                                <CheckBoxType5 name="Checkbox-1 Checkbox-1 Checkbox-1" value="Checkbox-1"/>
+                                <CheckBoxType5 label="Checkbox-1 Checkbox-1 Checkbox-1" value="Checkbox-1"/>
                             </div>
                         
                         </div>

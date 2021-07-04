@@ -1,13 +1,13 @@
 import React,{Fragment} from "react";
 
-const CheckBoxType4Wrong=({name,value})=>{
+const CheckBoxType4Wrong=({label,name,value,id})=>{
     return (
         <Fragment>
         <div className="checkbox-box chk-four chk-err">
-            <input type="radio" id="checkbox42" className="radio-four" value={value} required />
-            <label className="chk-label" for="checkbox42">
+            <input type="radio" id={id} name={name}  value={value} required />
+            <label className="chk-label" for={id}>
                 <i className="ph-x-circle"></i>
-                <span>{name}</span>
+                <span>{label}</span>
             </label>
         </div>
     </Fragment>

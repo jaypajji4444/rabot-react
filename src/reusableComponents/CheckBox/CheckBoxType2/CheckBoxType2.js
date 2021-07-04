@@ -1,10 +1,10 @@
 import React from "react";
 
-const CheckBoxType2=({name,value})=>{
+const CheckBoxType2=({label,id,value})=>{
     return (
         <div className="checkbox-box chk-rd">
-            <input type="checkbox" id="checkbox21" name="checkbox1"  value={value}required />
-            <label className="chk-label" for="checkbox21">{name}</label>
+            <input type="checkbox" id={id} name="checkbox1"  value={value}required />
+            <label className="chk-label" for={id}>{label}</label>
         </div>
     );
 }
