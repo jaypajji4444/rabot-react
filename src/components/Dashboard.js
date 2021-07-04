@@ -5,7 +5,8 @@ import "./DashBoard.css"
 import {SelectBox,Button,GoogleButton,Link,SearchBar,
 CheckBoxType1,CheckBoxType2,CheckBoxType3,CheckBoxType4Correct,CheckBoxType4Wrong,CheckBoxType5,Radio,
 InputCalendarField,InputPasswordField,InputTextAreaField,InputTextField,InputTimerField,InputVarianceField,InputTextFieldTopLabel
-,Badge,Share,Download,Filter,H2,H3,Navbar
+,Badge,Share,Download,Filter,H2,H3,Navbar,
+PlayCard,Play,OrderIcon,HorizontalCard,VerticalCard
 } from "../reusableComponents/index"
 
 let selectBoxData = ["Option-1","Option-2","Option-3"]
@@ -165,10 +166,38 @@ const Dashboard = ()=>{
                             <Button style="line sm-btn">Bulk Update</Button>
                         </div>
 
+                        <div class="col-md-12 mb-4">
+                                <h2 class="ehdn2">small elements</h2>
+                                <div class="row">
+                                    <div class="col-md-3 mb-4"><Play time="1:28"/></div>
+                                    <div class="col-md-3 mb-4"><OrderIcon title="Order" id="LP05071631" /></div>
+                                    <div class="col-md-6 mb-4">
+                                        <PlayCard title="Brown Box" time="1:51" type="normal"/>
+                                        <PlayCard title="Brown Box" time="1:51" type="delay"/>
+                                        <PlayCard title="Brown Box" time="1:51" type="cancel"/>
+                                    </div>  
+                                    
+                                </div>
+                        </div>
+
+                        <div class="col-md-4 mb-4">
+                            <h2 class="ehdn2">Card</h2>
+                            <VerticalCard />
+                        </div>
+
+                        <div class="col-md-6 mb-4">
+                            <HorizontalCard />
+                        </div>
+
+                               
+                            
+                       
+                        
+
                     </div>
 
-                    <h1>Links</h1>
-                    <div className="row">
+                    <h2>Links</h2>
+                    <div className="row">  
                         <div className="col-md-3"><Link to="#"  >Forgot Password?</Link></div>
                         <div className="col-md-3"><Link to="#"  >Existing User? Login</Link></div>
                         <div className="col-md-3"><Link to="#"   >Create an Account</Link></div>
