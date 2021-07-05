@@ -1,5 +1,6 @@
 import React from "react";
-import floor from "../../img/floor.jpg"
+import floor from "../../img/floor.jpg";
+import {Link} from "react-router-dom";
 
 
 
@@ -17,8 +18,8 @@ const VerticalCard =({})=>{
                     <li>
                         <p>Beatrice Griffin</p>
                     </li>
-                    <li><a href="#">diana.sanders@mail.com</a></li>
-                    <li><a href="#">(671)330-6658</a></li>
+                    <li><Link to="#">diana.sanders@mail.com</Link></li>
+                    <li><Link to="#">(671)330-6658</Link></li>
                 </ul>
             </div>
             <p className="place">York</p>
