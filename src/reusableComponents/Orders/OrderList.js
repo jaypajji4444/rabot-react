@@ -1,7 +1,7 @@
 import React from "react";
 import OrderListItem from "./OrderListItem";
 
-const OrderList = ({orders})=>{
+const OrderList = ({showCheckbox=false,orders})=>{
     return(
         <div className="main-table">
             <div className="table-head">
@@ -27,7 +27,7 @@ const OrderList = ({orders})=>{
                     <p>Status</p>
                 </div>
             </div>
-            {orders && orders.map((order,index)=><OrderListItem key={index} order={order}/>)}
+            {orders && orders.map((order,index)=><OrderListItem key={index} order={order} showCheckbox={showCheckbox}/>)}
 
         </div>
     )

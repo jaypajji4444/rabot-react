@@ -1,9 +1,9 @@
 import React  from "react";
-
-const SelectBox = ({options})=>{
+// Style =" statusField"
+const SelectBox = ({Style="",options,label="Select"})=>{
     //let optionList = options && options.map(optionItem=><option value={optionItem}>{optionItem}</option>)
     return (
-        <div className="form-grp">
+        <div className={`form-grp ${Style}`}>
             <select className="select-field form-field" name="select-fld" id="select-fld" required>
                 <option></option>
                 <option>Option 1</option>
@@ -12,7 +12,7 @@ const SelectBox = ({options})=>{
                 <option>Option 4</option>
                 <option>Option 5</option>
             </select>
-            <p className="form-label">Normal Select Field</p>
+            <p className="form-label">{label}</p>
         </div>
     )
 }

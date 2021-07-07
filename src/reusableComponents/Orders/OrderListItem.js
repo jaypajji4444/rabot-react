@@ -1,14 +1,26 @@
 import React from "react";
-import {Badge} from "../Badge"
+import {CheckBoxType2,Badge} from "../index";
 
-const OrderListItem = ({order:{orderNo,stationId,item,duration,assigned,img,dateTime,status}})=>{
+const OrderListItem = ({showCheckbox,order:{orderNo,stationId,item,duration,assigned,img,dateTime,status}})=>{
+    console.log(showCheckbox)
     let badgeClass ="gry-badge";
     if(status.toLowerCase()==="complete")badgeClass="badge-violet";
     else if(status.toLowerCase()==="pending")badgeClass="badge-yellow";
     return(
         <div className="table-body mt-3">
         <div className="tbl-body-txt">
-            <p><b>{orderNo}</b></p>
+            {!showCheckbox?<p><b>{orderNo}</b></p>:
+            (
+                <div className="order-list-check">
+                <div className="checkbox-box chk-rd onlyck">
+                    <input type="checkbox" id="checkbox3" name="checkbox" required />
+                    <label className="chk-label" for="checkbox3">
+                        <p><b>LP05071631</b></p>
+                    </label>
+                </div>
+            </div>
+            )
+            }
         </div>
         <div className="tbl-body-txt">
             <p>{stationId}</p>
