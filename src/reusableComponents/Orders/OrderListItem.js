@@ -1,7 +1,7 @@
 import React from "react";
 import {CheckBoxType2,Badge} from "../index";
 
-const OrderListItem = ({showCheckbox,order:{orderNo,stationId,item,duration,assigned,img,dateTime,status}})=>{
+const OrderListItem = ({key,showCheckbox,order:{orderNo,stationId,item,duration,assigned,img,dateTime,status}})=>{
     console.log(showCheckbox)
     let badgeClass ="gry-badge";
     if(status.toLowerCase()==="complete")badgeClass="badge-violet";
@@ -13,9 +13,9 @@ const OrderListItem = ({showCheckbox,order:{orderNo,stationId,item,duration,assi
             (
                 <div className="order-list-check">
                 <div className="checkbox-box chk-rd onlyck">
-                    <input type="checkbox" id="checkbox3" name="checkbox" required />
-                    <label className="chk-label" for="checkbox3">
-                        <p><b>LP05071631</b></p>
+                    <input type="checkbox" id={orderNo} name="checkbox" required />
+                    <label className="chk-label" for={orderNo}>
+                        <p><b>{orderNo}</b></p>
                     </label>
                 </div>
             </div>

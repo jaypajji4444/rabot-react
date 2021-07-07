@@ -7,8 +7,8 @@ import orderMainImg from "../../img/order.jpg";
 const OrderDetail = ()=>{
     let orders=[
         {orderNo:"LP05071631",stationId:"58754",item:4,duration:"75 Seconds",assigned:"Dennis Stewart",img:userImage,dateTime:"25 Jun'21 12.56pm",status:"In-Progress"},
-        {orderNo:"LP05071631",stationId:"58754",item:4,duration:"75 Seconds",assigned:"Dennis Stewart",img:userImage,dateTime:"25 Jun'21 12.56pm",status:"Complete"},
-        {orderNo:"LP05071631",stationId:"58754",item:4,duration:"75 Seconds",assigned:"Dennis Stewart",img:userImage,dateTime:"25 Jun'21 12.56pm",status:"Pending"}
+        {orderNo:"LP05071632",stationId:"58754",item:4,duration:"75 Seconds",assigned:"Dennis Stewart",img:userImage,dateTime:"25 Jun'21 12.56pm",status:"Complete"},
+        {orderNo:"LP05071633",stationId:"58754",item:4,duration:"75 Seconds",assigned:"Dennis Stewart",img:userImage,dateTime:"25 Jun'21 12.56pm",status:"Pending"}
     ]
     return (
         <Fragment>
