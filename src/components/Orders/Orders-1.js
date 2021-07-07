@@ -34,7 +34,7 @@ const Orders1 = ()=>{
                             <Badge style="badge-violet">Complete</Badge>
                             
                         </div>
-                       <SearchBar />
+                       <SearchBar placeholder="Search" sliders={true} />
         
                     </div>
                     </div>

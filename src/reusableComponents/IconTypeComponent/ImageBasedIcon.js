@@ -1,10 +1,11 @@
 import React from "react";
+import userImg from "../../img/user.jpg";
 
-const OrderIcon =({title="Order",label})=>{
+const ImageBasedIcon =({title="Icon",label,img=userImg})=>{
     return(
         <div className="order">
-            <div className="order-icon">
-                <i className="ph-package"></i>
+            <div className="order-img">
+                <img src={img} alt=""/>
             </div>
             <div className="order-text">
                 <p>{title}</p>
@@ -14,4 +15,4 @@ const OrderIcon =({title="Order",label})=>{
     )
 }
 
-export default OrderIcon;
+export default ImageBasedIcon;
