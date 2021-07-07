@@ -2,9 +2,9 @@ import React from "react";
 import {Badge} from "../Badge"
 
 const OrderListItem = ({order:{orderNo,stationId,item,duration,assigned,img,dateTime,status}})=>{
-    let badgeClass ="inprogress";
-    if(status.toLowerCase()==="complete")badgeClass="complete";
-    else if(status.toLowerCase()==="pending")badgeClass="pending";
+    let badgeClass ="gry-badge";
+    if(status.toLowerCase()==="complete")badgeClass="badge-violet";
+    else if(status.toLowerCase()==="pending")badgeClass="badge-yellow";
     return(
         <div className="table-body mt-3">
         <div className="tbl-body-txt">

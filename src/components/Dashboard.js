@@ -1,8 +1,6 @@
 import React,{Fragment} from 'react';
 import userImage from "../img/user.jpg";
 
-import "./DashBoard.css"
-
 import {SelectBox,Button,GoogleButton,Link,SearchBar,
 CheckBoxType1,CheckBoxType2,CheckBoxType3,CheckBoxType4Correct,CheckBoxType4Wrong,CheckBoxType5,Radio,
 InputCalendarField,InputPasswordField,InputTextAreaField,InputTextField,InputTimerField,InputVarianceField,InputTextFieldTopLabel
