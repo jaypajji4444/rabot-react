@@ -12,10 +12,10 @@ const Navbar=()=>{
             <div className="header-rig">
                 <ul className="head-list">
                     <li>
-                    <Link to="#">Dashboard</Link>
+                    <Link to="/">Dashboard</Link>
                     </li>
                     <li>
-                    <Link to="#">Orders</Link>
+                    <Link to="/orders">Orders</Link>
                     </li>
                     <li>
                     <div className="menuDrop notify-drop">
