@@ -13,6 +13,8 @@ import { H2,H3 } from "./Header";
 import {Navbar,SideNavbar} from "./Navbar";
 import { PlayCard,HorizontalCard,VerticalCard } from "./Cards";
 import {OrderList} from "./Orders";
+import { WarehouseList } from "./Warehouses";
+import { UserList } from "./Users";
 
 
 
@@ -37,7 +39,9 @@ export {Button,
     Play,OrderIcon,HorizontalCard,VerticalCard,
     OrderList,
     ImageBasedIcon,
-    SideNavbar
+    SideNavbar,
+    WarehouseList,
+    UserList
 
 
 
