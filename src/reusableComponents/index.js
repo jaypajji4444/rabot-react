@@ -10,9 +10,10 @@ import {Radio} from "./Radio";
 import {InputCalendarField,InputPasswordField,InputTextField,InputTimerField,InputVarianceField,InputTextFieldTopLabel,InputTextAreaField} from "./InputField";
 import {Share,Download,Filter,Play,OrderIcon,ImageBasedIcon} from "./IconTypeComponent";
 import { H2,H3 } from "./Header";
-import {Navbar} from "./Navbar";
+import {Navbar,SideNavbar} from "./Navbar";
 import { PlayCard,HorizontalCard,VerticalCard } from "./Cards";
 import {OrderList} from "./Orders";
+
 
 
 export {Button,
@@ -35,7 +36,8 @@ export {Button,
     PlayCard,
     Play,OrderIcon,HorizontalCard,VerticalCard,
     OrderList,
-    ImageBasedIcon
+    ImageBasedIcon,
+    SideNavbar
 
 
 

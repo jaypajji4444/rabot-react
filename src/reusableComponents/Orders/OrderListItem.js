@@ -1,8 +1,8 @@
 import React from "react";
 import {CheckBoxType2,Badge} from "../index";
 
-const OrderListItem = ({key,showCheckbox,order:{orderNo,stationId,item,duration,assigned,img,dateTime,status}})=>{
-    console.log(showCheckbox)
+const OrderListItem = ({showCheckbox,order:{orderNo,stationId,item,duration,assigned,img,dateTime,status}})=>{
+    
     let badgeClass ="gry-badge";
     if(status.toLowerCase()==="complete")badgeClass="badge-violet";
     else if(status.toLowerCase()==="pending")badgeClass="badge-yellow";

@@ -4,16 +4,16 @@ import {Link} from "react-router-dom";
 
 
 
-const VerticalCard =({})=>{
+const VerticalCard =({title="Card",img=floor})=>{
     return(
      
 <div className="comm-card">
         <div className="card-img">
-            <img src={floor} alt=""/>
+            <img src={img} alt=""/>
         </div>
         <div className="card-btm">
             <div className="card-txt">
-                <h6 className="card-hdn">City Warehouse</h6>
+                <h6 className="card-hdn">{title}</h6>
                 <ul className="card-desc">
                     <li>
                         <p>Beatrice Griffin</p>
