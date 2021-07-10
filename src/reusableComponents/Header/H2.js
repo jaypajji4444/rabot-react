@@ -1,7 +1,7 @@
 import React from "react";
 const H2=({...props})=>{
     return(
-        <h2 className="dash-hdn">{props.children}</h2>
+        <h2 className="dash-hdn text-cen">{props.children}</h2>
     )
 }
 

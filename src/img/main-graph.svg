@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1312.468" height="250.461" viewBox="0 0 1312.468 250.461">
+  <g id="main-graph" transform="translate(-55.532 -375.539)">
+    <g id="month" transform="translate(62 592)">
+      <text id="Jan" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Jan</tspan></text>
+      <text id="Feb" transform="translate(105)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Fe</tspan></text>
+      <text id="Mar" transform="translate(229)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Mar</tspan></text>
+      <text id="Apr" transform="translate(349)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Apr</tspan></text>
+      <text id="May" transform="translate(464)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Ma</tspan></text>
+      <text id="Jun" transform="translate(586)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Jun</tspan></text>
+      <text id="Jul" transform="translate(698)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Jul</tspan></text>
+      <text id="Aug" transform="translate(807)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Au</tspan></text>
+      <text id="Sep" transform="translate(925)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Sep</tspan></text>
+      <text id="Oct" transform="translate(1042)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Oct</tspan></text>
+      <text id="Nov" transform="translate(1166)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Nov</tspan></text>
+      <text id="Dec" transform="translate(1277)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Dec</tspan></text>
+    </g>
+    <g id="main-graph-2" data-name="main-graph" transform="translate(-8 -24)">
+      <g id="blue_line" data-name="blue line" transform="translate(56 407)">
+        <path id="Vector" d="M0,52.459l14.467,7.652C28.933,67.764,57.867,83.069,86.8,83.06s57.867-15.333,86.8,1.366,57.867,65.419,86.8,69.251,57.867-37.222,86.8-36.217,57.867,44.071,86.8,57.262,57.867-3.493,86.8-35.2,57.867-78.443,86.8-99.559,57.867-16.614,86.8-8.675,57.867,19.313,86.8,28.46S839.067,75.816,868,87.764s57.867,28.923,86.8,14.6,57.867-59.948,86.8-75.849,57.867-2.079,86.8,1.069,57.867-4.379,86.8-10.755,57.867-11.6,72.333-14.215L1302,0" transform="translate(8 8.406)" fill="none" stroke="#4f45b6" stroke-width="2"/>
+        <path id="Vector-2" data-name="Vector" d="M6.734,55.9l7.732,4.19c14.467,7.652,43.4,22.957,72.333,22.948S144.667,67.7,173.6,84.4s57.867,65.419,86.8,69.251,57.867-37.222,86.8-36.217S405.067,161.506,434,174.7s57.867-3.493,86.8-35.2,57.867-78.443,86.8-99.559,57.867-16.614,86.8-8.675,57.867,19.313,86.8,28.46S839.067,75.791,868,87.739s57.867,28.923,86.8,14.6,57.867-59.948,86.8-75.849,57.867-2.079,86.8,1.069,57.867-4.379,86.8-10.755,57.867-11.6,72.333-14.215L1294.693,0" transform="translate(8 -1.594)" fill="none" stroke="#1d2b4f" stroke-width="2"/>
+      </g>
+      <g id="main-chart" transform="translate(56 400.406)">
+        <path id="Vector-3" data-name="Vector" d="M0,52.459l14.467,7.652C28.933,67.764,57.867,83.069,86.8,83.06s57.867-15.333,86.8,1.366,57.867,65.419,86.8,69.251,57.867-37.222,86.8-36.217,57.867,44.071,86.8,57.262,57.867-3.493,86.8-35.2,57.867-78.443,86.8-99.559,57.867-16.614,86.8-8.675,57.867,19.313,86.8,28.46S839.067,75.816,868,87.764s57.867,28.923,86.8,14.6,57.867-59.948,86.8-75.849,57.867-2.079,86.8,1.069,57.867-4.379,86.8-10.755,57.867-11.6,72.333-14.215L1302,0" transform="translate(1310 179.266) rotate(180)" fill="none" stroke="#f8c140" stroke-width="2"/>
+        <path id="Vector-4" data-name="Vector" d="M0,58.035l5.1.975c14.467,7.652,38.3,24.059,67.235,24.05s57.867-15.333,86.8,1.366,57.867,65.419,86.8,69.251,57.867-37.222,86.8-36.217,57.867,44.071,86.8,57.262,57.867-3.493,86.8-35.2,57.867-78.443,86.8-99.559,57.867-16.614,86.8-8.675,57.867,19.313,86.8,28.46,57.867,16.069,86.8,28.017,57.867,28.923,86.8,14.6,57.867-59.948,86.8-75.849,57.867-2.079,86.8,1.069,57.867-4.379,86.8-10.755,57.867-11.6,72.333-14.215L1287.533,0" transform="translate(1303.533 189.594) rotate(180)" fill="none" stroke="#888" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

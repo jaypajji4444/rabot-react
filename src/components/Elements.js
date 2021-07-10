@@ -15,7 +15,7 @@ let orders=[
     {orderNo:"LP05071631",stationId:"58754",item:4,duration:"75 Seconds",assigned:"Dennis Stewart",img:userImage,dateTime:"25 Jun'21 12.56pm",status:"Pending"}
 ]
 
-const Dashboard = ()=>{
+const Elements = ()=>{
     
     return(
 
@@ -221,4 +221,4 @@ const Dashboard = ()=>{
     )
 }
 
-export default Dashboard;
+export default Elements;
