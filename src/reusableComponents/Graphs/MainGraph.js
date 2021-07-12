@@ -1,7 +1,30 @@
 import React from "react";
-import { barGraphImg } from "../../img";
 
-const MainGraph=()=>{
+import {Bar} from "react-chartjs-2"
+
+const MainGraph=({data})=>{
+    const options= {
+        plugins: {
+          title: {
+            display: false,
+            text: 'Chart.js Bar Chart - Stacked'
+          },  
+          legend:{display:false}
+        },
+        responsive: true,
+        scales: {
+          x: {
+            stacked: true,
+            grid:{display:false},
+            ticks:{color:"black",font:{size:18}}
+          },
+          y: {
+            stacked: true,
+            grid:{display:false},
+            ticks:{color:"black",font:{size:18}}
+          }
+        }     
+      }
     return(
         <div className="dash-box2">
 
@@ -36,7 +59,7 @@ const MainGraph=()=>{
         </div>
 
         <div className="main-grph">
-            <img src={barGraphImg} alt=""/>
+            <Bar data={data}  width={400} height={100} options={{...options}} />
         </div>
 
     </div>

@@ -1,11 +1,16 @@
 import React from "react";
-import {SelectBox} from "../index";
+import {LineChart} from "./Charts";
 const SmallLineGraph=({title,data,img,trend="up",trendValue,compareDate:{start="d1",end="d2"}})=>{
+
         let trendDown={color:"red",icon:"ph-trend-down"};
         let trendUp={color:"green",icon:"ph-trend-up"};
         const isTrendUp=trend==="up"
         let colorClass = isTrendUp?trendUp.color:trendDown.color;
         let iconClass = isTrendUp?trendUp.icon:trendDown.icon;
+
+
+
+
     return(
         <div className="dash-box">
         <div className="comm-dash-hdn mb0">
@@ -15,7 +20,8 @@ const SmallLineGraph=({title,data,img,trend="up",trendValue,compareDate:{start="
                 <h4>Comparing: {start} - {end}</h4>
             </div>
             <div className="line-char">
-                <img className="line-chart" src={img} alt=""/>
+                <LineChart color={isTrendUp?"#00f100":"#f00"}/>
+                
             </div>
             
             

@@ -3,6 +3,36 @@ import {SelectBox,InputCalendarField,Share,Filter,Badge,SmallLineGraph,MainGraph
 import { lineImgUp,lineImgDown,userImg } from "../../img";
 
 
+const labels = ["jan","feb","march","april","may","june","july","aug","sep","oct","nov","dec"]
+const data = {
+  labels: labels,
+  datasets: [
+    {
+      label: 'Dataset 1',
+      data: [12,13,14,11,16,11,15,16,11,15,16,25],
+      backgroundColor: "#1d2b4f"
+    },
+    {
+      label: 'Dataset 2',
+      data: [2,3,4,5,6,1,5,3,4,6,7,1],
+      backgroundColor: "#fdc953",
+    },
+    
+  ]
+};
+
+
+    
+  
+
+
+
+
+
+
+
+
+
 
 
 const Dashboard =()=>{
@@ -34,7 +64,7 @@ const Dashboard =()=>{
                        
                     </div>
                     <Breakdown />
-                    <MainGraph/>
+                    <MainGraph data={data}  />
                     <div className="dash-order">
                             <h6 className="comm-dash-title mb0">Orders</h6>
 
@@ -58,6 +88,7 @@ const Dashboard =()=>{
 
                 </div>
 
+               
 
             </div>
         </div>
