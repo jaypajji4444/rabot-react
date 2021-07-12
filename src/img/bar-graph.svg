@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1322" height="273" viewBox="0 0 1322 273">
+  <g id="bar-graph" transform="translate(-58 -544)">
+    <g id="month" transform="translate(70 783)">
+      <text id="Jan" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Jan</tspan></text>
+      <text id="Feb" transform="translate(105)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Feb</tspan></text>
+      <text id="Mar" transform="translate(229)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Mar</tspan></text>
+      <text id="Apr" transform="translate(349)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Apr</tspan></text>
+      <text id="May" transform="translate(464)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Ma</tspan></text>
+      <text id="Jun" transform="translate(586)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Jun</tspan></text>
+      <text id="Jul" transform="translate(698)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Jul</tspan></text>
+      <text id="Aug" transform="translate(807)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Au</tspan></text>
+      <text id="Sep" transform="translate(925)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Sep</tspan></text>
+      <text id="Oct" transform="translate(1042)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Oct</tspan></text>
+      <text id="Nov" transform="translate(1166)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Nov</tspan></text>
+      <text id="Dec" transform="translate(1277)" fill="#a098ae" font-size="18" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="0" y="23">Dec</tspan></text>
+    </g>
+    <rect id="Rectangle_2103" data-name="Rectangle 2103" width="50" height="221" rx="3" transform="translate(58 544)" fill="#1d2b4f"/>
+    <rect id="Rectangle_2106" data-name="Rectangle 2106" width="50" height="148" rx="3" transform="translate(161 617)" fill="#1d2b4f"/>
+    <rect id="Rectangle_2108" data-name="Rectangle 2108" width="50" height="58" rx="3" transform="translate(289 707)" fill="#1d2b4f"/>
+    <rect id="Rectangle_2110" data-name="Rectangle 2110" width="50" height="194" rx="3" transform="translate(401 571)" fill="#1d2b4f"/>
+    <rect id="Rectangle_2112" data-name="Rectangle 2112" width="50" height="194" rx="3" transform="translate(513 571)" fill="#1d2b4f"/>
+    <rect id="Rectangle_2114" data-name="Rectangle 2114" width="50" height="148" rx="3" transform="translate(625 617)" fill="#1d2b4f"/>
+    <rect id="Rectangle_2116" data-name="Rectangle 2116" width="50" height="171" rx="3" transform="translate(744 594)" fill="#1d2b4f"/>
+    <rect id="Rectangle_2120" data-name="Rectangle 2120" width="50" height="171" rx="3" transform="translate(984 594)" fill="#1d2b4f"/>
+    <rect id="Rectangle_2121" data-name="Rectangle 2121" width="50" height="171" rx="3" transform="translate(1099 594)" fill="#1d2b4f"/>
+    <rect id="Rectangle_2123" data-name="Rectangle 2123" width="50" height="171" rx="3" transform="translate(1218 594)" fill="#1d2b4f"/>
+    <rect id="Rectangle_2125" data-name="Rectangle 2125" width="50" height="171" rx="3" transform="translate(1330 594)" fill="#1d2b4f"/>
+    <rect id="Rectangle_2118" data-name="Rectangle 2118" width="50" height="74" rx="3" transform="translate(856 691)" fill="#1d2b4f"/>
+    <rect id="Rectangle_2104" data-name="Rectangle 2104" width="50" height="27" rx="3" transform="translate(58 544)" fill="#fdc953"/>
+    <rect id="Rectangle_2105" data-name="Rectangle 2105" width="50" height="18" rx="3" transform="translate(161 617)" fill="#fdc953"/>
+    <rect id="Rectangle_2107" data-name="Rectangle 2107" width="50" height="9" rx="3" transform="translate(289 707)" fill="#fdc953"/>
+    <rect id="Rectangle_2109" data-name="Rectangle 2109" width="50" height="23" rx="3" transform="translate(401 571)" fill="#fdc953"/>
+    <rect id="Rectangle_2111" data-name="Rectangle 2111" width="50" height="23" rx="3" transform="translate(513 571)" fill="#fdc953"/>
+    <rect id="Rectangle_2113" data-name="Rectangle 2113" width="50" height="18" rx="3" transform="translate(625 617)" fill="#fdc953"/>
+    <rect id="Rectangle_2115" data-name="Rectangle 2115" width="50" height="21" rx="3" transform="translate(744 594)" fill="#fdc953"/>
+    <rect id="Rectangle_2119" data-name="Rectangle 2119" width="50" height="21" rx="3" transform="translate(984 594)" fill="#fdc953"/>
+    <rect id="Rectangle_2122" data-name="Rectangle 2122" width="50" height="21" rx="3" transform="translate(1099 594)" fill="#fdc953"/>
+    <rect id="Rectangle_2124" data-name="Rectangle 2124" width="50" height="21" rx="3" transform="translate(1218 594)" fill="#fdc953"/>
+    <rect id="Rectangle_2126" data-name="Rectangle 2126" width="50" height="21" rx="3" transform="translate(1330 594)" fill="#fdc953"/>
+    <rect id="Rectangle_2117" data-name="Rectangle 2117" width="50" height="25" rx="3" transform="translate(856 691)" fill="#fdc953"/>
+  </g>
+</svg>

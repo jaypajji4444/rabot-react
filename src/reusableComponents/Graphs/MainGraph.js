@@ -1,45 +1,42 @@
 import React from "react";
-import {SelectBox} from "../index";
-import { mainGrapImg } from "../../img";
+import { barGraphImg } from "../../img";
 
 const MainGraph=()=>{
     return(
-        <div class="dash-box2">
+        <div className="dash-box2">
 
-        <div class="main-grph-top">
-            <div class="main-grp-left">
-                <div class="comm-dash">
-                    <p>Pack Rate Of Orders</p>
-                    <h5><span class="dot"></span> 42/Hour</h5>
-                </div>
-                <div class="comm-dash">
+        <div className="main-grph-top">
+            <div className="main-grp-left">
+                <div className="comm-dash">
                     <p>Pack Rate Of SKUs</p>
-                    <h5><span class="dot pur"></span> 86/Hour</h5>
+                    <h5><span className="dot"></span>86 / Hour</h5>
                 </div>
-                <div class="comm-dash">
+                <div className="comm-dash">
                     <p>Avg. Pack Time</p>
-                    <h5><span class="dot yel"></span> 2 Min 8 Secs</h5>
+                    <h5><span className="dot yel"></span> 2 Min 8 Secs</h5>
                 </div>
-                <div class="comm-dash">
+                <div className="comm-dash">
                     <p>Avg. SKUs / Order</p>
-                    <h5><span class="dot gry"></span> 31</h5>
+                    <h5><span className="dot gry"></span> 31</h5>
                 </div>
-              
             </div>
-            <div class="main-grp-left">
-                
-                <div class="comm-dash">
-                    <p>Period</p>
-                      <SelectBox label="Year" Style="graph-form"/>
-                    
+
+            <div className="main-grp-left">
+                <div className="switch switch--horizontal">
+                    <input id="radio-a" type="radio" name="first-switch" checked="checked" />
+                    <label for="radio-a">Order</label>
+                    <input id="radio-b" type="radio" name="first-switch" />
+                    <label for="radio-b">SKU</label>
+                    <span className="toggle-outside">
+                        <span className="toggle-inside"></span>
+                    </span>
                 </div>
-    
             </div>
 
         </div>
 
-        <div class="main-grph">
-            <img src={mainGrapImg} alt=""/>
+        <div className="main-grph">
+            <img src={barGraphImg} alt=""/>
         </div>
 
     </div>

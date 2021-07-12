@@ -1,6 +1,6 @@
 import React from "react";
-import {SelectBox,InputCalendarField,SearchBar,SmallLineGraph,MainGraph,OrderList} from "../../reusableComponents"
-import { lineImg4,lineImg3,lineImg2,lineImg1,userImg } from "../../img";
+import {SelectBox,InputCalendarField,Share,Filter,Badge,SmallLineGraph,MainGraph,Breakdown,OrderList} from "../../reusableComponents"
+import { lineImgUp,lineImgDown,userImg } from "../../img";
 
 
 
@@ -12,34 +12,50 @@ const Dashboard =()=>{
         {orderNo:"LP05071633",stationId:"58754",item:4,duration:"75 Seconds",assigned:"Dennis Stewart",img:userImg,dateTime:"25 Jun'21 12.56pm",status:"Pending"}
     ]
     return(
-        <div class="admin-section pl0">
-            <div class="admin-container dash-contr">
+        <div className="admin-section pl0">
+            <div className="admin-container dash-contr">
 
-                <div class="admin-hdn-box">
-                    <div class="order-list-left">
-                        <h5 class="admin-hdn mb0">Dashboard</h5>
+                <div className="admin-hdn-box">
+                    <h5 className="admin-hdn mb0">Dashboard</h5>
+
+                    <div className="order-list-rig dash-input">
                         <SelectBox label="Warehouse"/>
-                
-                        <div class="fromto">
-                            <InputCalendarField label="From" name="from" style="left" />
-                            <InputCalendarField label="To" name="to" style="left" />
-                        </div>
-                    </div>
-
-                    <div class="order-list-rig">
-                        <SearchBar placeholder="Search" sliders={true}/>                
+                        <InputCalendarField label="Calendar" name="from" style="right" />
+                        <Filter />  
+                        <Share/>              
                     </div>
                 </div>
 
-                <div class="comm-admin-sec">
-                    <div class="f-row f-4 disFlex">
-                        <div class="f-col"><SmallLineGraph title="Accuracy Rate" data="99.6%" img={lineImg1}/></div>
-                        <div class="f-col"><SmallLineGraph title="Item Miscount" data="99.6%" img={lineImg2}/></div>
-                        <div class="f-col"><SmallLineGraph title="Missing Dunnage" data="99.6%" img={lineImg3}/></div>
-                        <div class="f-col"><SmallLineGraph title="Missing Shipping Labels" data="99.6%" img={lineImg4}/></div>
+                <div className="comm-admin-sec">
+                    <div className="f-row f-2 disFlex">
+                        <div className="f-col"><SmallLineGraph title="Accuracy Rate" data="99.6%" img={lineImgDown} trendValue="1.28%" trend="down" compareDate={{start:"1 Jul'21",end:"30 Jul'21"}}/></div>
+                        <div className="f-col"><SmallLineGraph title="Item Miscount" data="0.4%" img={lineImgUp} trendValue="1.28%" trend="up" compareDate={{start:"1 Jul'21",end:"30 Jul'21"}}/></div>
+
+                       
                     </div>
+                    <Breakdown />
                     <MainGraph/>
+                    <div className="dash-order">
+                            <h6 className="comm-dash-title mb0">Orders</h6>
+
+                            <div className="badge-tabs">
+                                <Badge style="active">
+                                    All
+                                </Badge>
+                                <Badge style="gry-badge">
+                                    In-Progress
+                                </Badge>
+                                <Badge style="badge-yellow">
+                                    Pending
+                                </Badge>
+                                <Badge style="badge-violet">
+                                    Complete
+                                </Badge>
+                            </div>
+                    </div>
                     {orders ?<OrderList orders={orders}  showCheckbox={false} />:(<h1>No orders...</h1>)}
+
+
                 </div>
 
 

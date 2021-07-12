@@ -15,7 +15,7 @@ import { PlayCard,HorizontalCard,VerticalCard } from "./Cards";
 import {OrderList} from "./Orders";
 import { WarehouseList } from "./Warehouses";
 import { UserList } from "./Users";
-import {SmallLineGraph,MainGraph} from "./Graphs";
+import {SmallLineGraph,MainGraph,Breakdown} from "./Graphs";
 
 
 
@@ -43,7 +43,7 @@ export {Button,
     SideNavbar,
     WarehouseList,
     UserList,
-    SmallLineGraph,MainGraph
+    SmallLineGraph,MainGraph,Breakdown
 
 
 

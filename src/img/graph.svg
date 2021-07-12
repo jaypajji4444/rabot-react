@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="686" height="24.955" viewBox="0 0 686 24.955">
+  <g id="graph" transform="translate(-58 -459.5)">
+    <rect id="Rectangle_2127" data-name="Rectangle 2127" width="24.955" height="686" rx="12.478" transform="translate(58 484.455) rotate(-90)" fill="#1d2b4f"/>
+    <path id="Rectangle_2128" data-name="Rectangle 2128" d="M12.478,0H256a0,0,0,0,1,0,0V24.955a0,0,0,0,1,0,0H12.478A12.478,12.478,0,0,1,0,12.478v0A12.478,12.478,0,0,1,12.478,0Z" transform="translate(58 459.5)" fill="#fdc953"/>
+    <rect id="Rectangle_2129" data-name="Rectangle 2129" width="256" height="24.955" transform="translate(314 459.5)" fill="#888"/>
+  </g>
+</svg>
