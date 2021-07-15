@@ -1,3 +1,4 @@
 import Users from "./Users";
+import AddEditUser from "./AddEditUser";
 
-export {Users}
+export {Users,AddEditUser}
