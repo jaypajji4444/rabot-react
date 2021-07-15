@@ -12,7 +12,7 @@ const Navbar=()=>{
             <div className="header-rig">
                 <ul className="head-list">
                     <li>
-                    <Link to="/">Dashboard</Link>
+                    <Link to="/dashboard">Dashboard</Link>
                     </li>
                     <li>
                     <Link to="/orders">Orders</Link>

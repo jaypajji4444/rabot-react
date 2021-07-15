@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState,Fragment } from "react";
 import {SelectBox,InputCalendarField,Share,Filter,Badge,SmallLineGraph,MainGraph,Breakdown,OrderList} from "../../reusableComponents"
 import { lineImgUp,lineImgDown,userImg } from "../../img";
+
+import {FilterModal} from "../Modals"
 
 
 const labels = ["jan","feb","march","april","may","june","july","aug","sep","oct","nov","dec"]
@@ -41,7 +43,16 @@ const Dashboard =()=>{
         {orderNo:"LP05071632",stationId:"58754",item:4,duration:"75 Seconds",assigned:"Dennis Stewart",img:userImg,dateTime:"25 Jun'21 12.56pm",status:"Complete"},
         {orderNo:"LP05071633",stationId:"58754",item:4,duration:"75 Seconds",assigned:"Dennis Stewart",img:userImg,dateTime:"25 Jun'21 12.56pm",status:"Pending"}
     ]
+    const [showModal,setShowModal] = useState(false);
+    const onClickHandler=()=>{
+        console.log("modal")
+        setShowModal(true);
+    }
+    const onModalCloseHandler=()=>{
+        setShowModal(false);
+    }
     return(
+        <Fragment>
         <div className="admin-section pl0">
             <div className="admin-container dash-contr">
 
@@ -51,7 +62,7 @@ const Dashboard =()=>{
                     <div className="order-list-rig dash-input">
                         <SelectBox label="Warehouse"/>
                         <InputCalendarField label="Calendar" name="from" style="right" />
-                        <Filter />  
+                        <Filter onClickHandler={onClickHandler} />  
                         <Share/>              
                     </div>
                 </div>
@@ -92,6 +103,8 @@ const Dashboard =()=>{
 
             </div>
         </div>
+        <FilterModal  show={showModal} onCloseHandler={onModalCloseHandler}/>
+        </Fragment>
     )
 }
 
